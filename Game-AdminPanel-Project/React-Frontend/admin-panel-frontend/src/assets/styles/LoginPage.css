@@ -1,0 +1,105 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('C:/Users/kcksv/OneDrive/Masaüstü/Game-AdminPanel-Project/React-Frontend/admin-panel-frontend/src/assets/images/background4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+
+.login-header {
+    color: #FF7F00; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.login-form {
+    background: rgba(0, 0, 0, 0.8); 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center; 
+}
+
+.login-input {
+    width: 95%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #FF7F00; 
+    border-radius: 5px;
+    background: transparent;
+    color: #fff; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.login-input::placeholder {
+    color: #FF7F00; 
+}
+
+.login-input:focus {
+    border-color: #FF7F00;
+    box-shadow: 0 0 8px rgba(255, 127, 0, 0.5); 
+    outline: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FF7F00; 
+    color: #000; 
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.login-button:hover {
+    background: #E67300; 
+    transform: scale(1.05);
+}
+
+.login-button:active {
+    background: #CC6600; 
+    transform: scale(0.95);
+}
+
+.login-form p {
+    color: #FF7F00; 
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: #FF7F00; 
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+.show-password-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: orange;
+    cursor: pointer;
+}
+
+/* Uyarı mesajı stili */
+.alert-message {
+    color: #fff !important; 
+    font-size: 0.75rem; 
+     font-weight: bold; 
+    margin-bottom: 15px; 
+    text-align: center; 
+}

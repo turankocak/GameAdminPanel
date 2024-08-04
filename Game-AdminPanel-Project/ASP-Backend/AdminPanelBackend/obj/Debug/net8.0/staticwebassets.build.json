@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aicYSS5E0piVUnWOqJNGslDqdAVgwR+7AGZEG0eGpEI=",
+  "Source": "AdminPanelBackend",
+  "BasePath": "_content/AdminPanelBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
